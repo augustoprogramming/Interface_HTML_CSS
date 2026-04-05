@@ -1,0 +1,151 @@
+*{
+  font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+html, body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+nav{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+  }
+
+.logo{
+padding: 20px ;
+width: 50%;
+height: 50%;
+}
+
+.menu{
+  padding: 4%;
+}
+
+.menu a{ 
+  color: rgb(48, 48, 48);
+  text-decoration: none;
+  font-weight: lighter;
+  margin-right: 20px;
+  display: inline-block;
+  transition: .2s;
+}
+
+.menu a:hover{
+color: black;
+transform: scale(1.30);
+}
+
+.menu u{
+text-decoration: none;
+}
+
+.elementos{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.caixalogin{
+  margin-left: 5px;
+  display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width:400px;
+  justify-content: left;
+  border: 1px solid #c2c2c2;
+  background-color: #a7d8dd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 5px 0px rgba(51, 51, 51, 0.4);
+}
+
+.caixalogin H1{
+  text-align: center;
+}
+
+.input-field{
+  width: 397px; padding: 10px;
+  border: none; border-radius: 3px;
+  background-color: #f1f1f1;
+font-size: 16px; 
+}
+
+.input-label{
+  color: #999;
+ 
+}
+
+.input-field:focus+.input-label,
+.input-field:not(:placeholder-shown)+.input-label{
+ font-size: 9px;
+  color: #000; padding: 3px;
+  background-color: #7debff;
+  border-radius: 3px; font-weight: 700;
+
+}
+
+.save{
+  color: #000000;
+}
+
+.esqueceu{
+  text-align: center;
+  margin-left: -8%;
+}
+
+.esqueceu a{
+  color: #13818d;
+}
+
+.containerlogin button{
+  margin-bottom: 10%;
+  margin-left: 22%;
+ width: 200px;
+  border: 0;
+  background-color: #13818d;
+  background: linear-gradient(90deg,
+  #13818d, #153d5e, #13818d
+  );
+  color: white;
+  border-radius: 20px;
+padding: 10px 40px;
+ cursor: pointer;
+}
+
+.finale a{
+  color: #13818d;
+}
+
+.bolazul{
+  display: flex;
+  justify-content: center;
+  margin-right: -400px;
+  height: 600px;
+  width: 600px;
+  border-radius: 60%;
+background-color: #13818d;
+}
+
+.bolazul img{
+  margin-right: 200px;
+  margin-top: -100px;
+  height: 650px;
+  rotate: 15deg;
+  animation: mover 3s linear ;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-1500px);
+  }
+}
+
+  
